@@ -36,15 +36,7 @@ copyright: Copyright &copy; 2022 HENU NETWORK LAB # 左下角的版权声明
 nav:
   - SmartNetLab:
     - index.md
-  - 区块链:
-    - BlockChain/index.md
-    - 区块链与机器学习:
-      - 区块链与机器学习1: BlockChain/ML/ML1.md
-      - 区块链与机器学习2: BlockChain/ML/ML2.md
-    - 区块链与联邦学习: 
-      - 区块链与联邦学习1: BlockChain/FL/FL1.md
-      - 区块链与联邦学习2: BlockChain/FL/FL2.md
-  - 网络流量识别: 
+  - 流量识别: 
     - NetworkTrafficIdentification/index.md
     - 流量识别与机器学习:
       - 流量识别与机器学习1: NetworkTrafficIdentification/ML/ML1.md
@@ -52,19 +44,32 @@ nav:
     - 流量识别与联邦学习: 
       - 流量识别与联邦学习1: NetworkTrafficIdentification/FL/FL1.md
       - 流量识别与联邦学习2: NetworkTrafficIdentification/FL/FL2.md
-  - 网络资源优化: 
+  - 异常检测: 
     - NetworkAnomalyDetection/index.md
-    - 网络资源优化与机器学习:
-      - 网络资源优化与机器学习1: NetworkAnomalyDetection/ML/ML1.md
-      - 网络资源优化与机器学习2: NetworkAnomalyDetection/ML/ML2.md
-    - 网络资源优化与联邦学习: 
-      - 网络资源优化与联邦学习1: NetworkAnomalyDetection/FL/FL1.md
-      - 网络资源优化与联邦学习2: NetworkAnomalyDetection/FL/FL2.md
-  - 网络资源优化: 
+    - 异常检测与机器学习:
+      - 异常检测与机器学习1: NetworkAnomalyDetection/ML/ML1.md
+      - 异常检测与机器学习2: NetworkAnomalyDetection/ML/ML2.md
+    - 异常检测与联邦学习: 
+      - 异常检测化与联邦学习1: NetworkAnomalyDetection/FL/FL1.md
+      - 异常检测与联邦学习2: NetworkAnomalyDetection/FL/FL2.md
+
+  - 资源优化: 
     - NetworkResourceOptimization/index.md
-    - 网络资源优化与机器学习:
-      - 网络资源优化与机器学习1: NetworkResourceOptimization/ML/ML1.md
-      - 网络资源优化与机器学习2: NetworkResourceOptimization/ML/ML2.md
-    - 网络资源优化与联邦学习: 
-      - 网络资源优化与联邦学习1: NetworkResourceOptimization/FL/FL1.md
-      - 网络资源优化与联邦学习2: NetworkResourceOptimization/FL/FL2.md
+    - 资源优化与机器学习:
+      - 资源优化与机器学习1: NetworkResourceOptimization/ML/ML1.md
+      - 资源优化与机器学习2: NetworkResourceOptimization/ML/ML2.md
+    - 资源优化与联邦学习: 
+      - 资源优化与联邦学习1: NetworkResourceOptimization/FL/FL1.md
+      - 资源优化与联邦学习2: NetworkResourceOptimization/FL/FL2.md
+
+  - 应用场景:
+    - ApplicationScenarios/index.md
+    - 机器学习:
+      - 机器学习1: ApplicationScenarios/ML/ML1.md
+      - 机器学习2: ApplicationScenarios/ML/ML2.md
+    - 联邦学习: 
+      - 联邦学习1: ApplicationScenarios/FL/FL1.md
+      - 联邦学习2: ApplicationScenarios/FL/FL2.md
+  
+  
+  
