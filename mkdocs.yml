@@ -55,12 +55,12 @@ nav:
 
   - 资源优化: 
     - NetworkResourceOptimization/index.md
-    - 资源优化与机器学习:
-      - 资源优化与机器学习1: NetworkResourceOptimization/ML/ML1.md
-      - 资源优化与机器学习2: NetworkResourceOptimization/ML/ML2.md
-    - 资源优化与联邦学习: 
-      - 资源优化与联邦学习1: NetworkResourceOptimization/FL/FL1.md
-      - 资源优化与联邦学习2: NetworkResourceOptimization/FL/FL2.md
+    #- 资源优化与机器学习:
+    #  - 资源优化与机器学习1: NetworkResourceOptimization/ML/ML1.md
+    #  - 资源优化与机器学习2: NetworkResourceOptimization/ML/ML2.md
+    #- 资源优化与联邦学习: 
+      #- 资源优化与联邦学习1: NetworkResourceOptimization/FL/FL1.md
+      #- 资源优化与联邦学习2: NetworkResourceOptimization/FL/FL2.md
 
   - 应用场景:
     - ApplicationScenarios/index.md

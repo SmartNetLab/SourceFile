@@ -15,7 +15,7 @@
     
     
       
-        <title>网络资源优化 - SmartNetLab</title>
+        <title>网络资源优化简介 - SmartNetLab</title>
       
     
     
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              网络资源优化
+              网络资源优化简介
             
           </span>
         </div>
@@ -748,20 +748,12 @@
             
           
         
-          
-        
-          
-        
       
       
         
         
         <div class="md-nav__link md-nav__link--index md-nav__link--active">
           <a href="./">资源优化</a>
-          
-            <label for="__nav_4">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
           
         </div>
       
@@ -772,140 +764,6 @@
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
-      
-      
-      
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_2">
-          资源优化与机器学习
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="资源优化与机器学习" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
-          <span class="md-nav__icon md-icon"></span>
-          资源优化与机器学习
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ML/ML1/" class="md-nav__link">
-        资源优化与机器学习1
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ML/ML2/" class="md-nav__link">
-        资源优化与机器学习2
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
-      
-      
-      
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_3">
-          资源优化与联邦学习
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="资源优化与联邦学习" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
-          <span class="md-nav__icon md-icon"></span>
-          资源优化与联邦学习
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="FL/FL1/" class="md-nav__link">
-        资源优化与联邦学习1
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="FL/FL2/" class="md-nav__link">
-        资源优化与联邦学习2
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
             
           
         </ul>
@@ -1153,11 +1011,11 @@
   </a>
 
 
-<h1 id="_1">网络资源优化</h1>
-<h1 id="hhhh">hhhh</h1>
-<h2 id="hhhh_1">hhhh</h2>
-<h1 id="wwwww">wwwww</h1>
-<h2 id="wwww">wwww</h2>
+<h1 id="_1">网络资源优化简介</h1>
+<p>简介：神经网络模型的训练可分为集中式和分布式，集中式需要将数据聚合在数据中心进行训练，分布式机器学习系统利用网络中的设备和资源来训练神经网络模型。</p>
+<p>在联邦学习中，模型聚合在服务器上进行，通过平均局部模型更新生成全局模型。在FL的整个训练过程中，只有模型参数在客户端和服务器之间进行通信。因此，客户端不需要将其原始训练数据共享给服务器或其他客户端，本地数据保持在本地且保密。然而，训练整个模型通常对计算要求太高，并且可能导致在资源受限的设备上训练时间过长。</p>
+<p>在拆分学习中，将神经网络从一个特定的层（分割层或切割层），神经网络被分成两个子网络。第一部分部署设备端，第二部分部署在服务器端。训练时，模型被训练到分割层，然后将分割层的特征发送到服务器；服务器继续训练直到模型的最后一层；在计算出训练损失并更新梯度后，将分割层的各个中间梯度发送到设备，以便在设备上更新梯度。上述过程在整个客户端数据集上的迭代通常称为训练轮。反复进行训练多个轮次，直到模型收敛。</p>
+<p>研究基于联邦拆分学习在资源受限的设备中高效计算。</p>
 
 
 
@@ -1199,13 +1057,13 @@
       
       
         
-        <a href="ML/ML1/" class="md-footer__link md-footer__link--next" aria-label="下一页: 资源优化与机器学习1" rel="next">
+        <a href="../ApplicationScenarios/" class="md-footer__link md-footer__link--next" aria-label="下一页: 以下内容仅供参考" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 下一页
               </span>
-              资源优化与机器学习1
+              以下内容仅供参考
             </div>
           </div>
           <div class="md-footer__button md-icon">
